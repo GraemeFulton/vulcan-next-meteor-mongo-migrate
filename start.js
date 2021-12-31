@@ -4,7 +4,7 @@ const {MongoClient} = require('mongodb');
  * Migrate vulcan meteor accounts to vulcan-next
  *
  * 
- * Run `node objectid-migration.js` to start the migration
+ * Run `node start.js` to start the migration
  *
  * How it works:
  * - Loops through all user created mongo collections, and migrate meteor Id to mongo id
